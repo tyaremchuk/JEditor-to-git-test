@@ -27,7 +27,7 @@ public class Head extends JFrame
     JFrame f;
     Head()
     {
-        f = new JFrame("Frame of smthing");
+        f = new JFrame("Frames of smthing");
         JEditorPane editorPane = new JEditorPane();
         editorPane.setContentType("text/plain");
         editorPane.setText("<h1>Sleeping111121312</h1><p>Sleeping is necessary for a healthy body."
