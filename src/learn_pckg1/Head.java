@@ -27,12 +27,10 @@ public class Head extends JFrame
     JFrame f;
     Head()
     {
-        f = new JFrame("Frame of smthing");
+        f = new JFrame("Frames of smthing");
         JEditorPane editorPane = new JEditorPane();
-        editorPane.setContentType("text/html");
-        editorPane.setText("<h1>Sleeping</h1><p>Sleeping is necessary for a healthy body."
-                + " But sleeping in unnecessary times may spoil our health, wealth and studies."
-                + " Doctors advise that the sleeping at improper timings may lead for obesity during the students days.</p>");
+        editorPane.setContentType("text/plain");
+        editorPane.setText("<h1>Sleeping111121312</h1>");
         f.setContentPane(editorPane);
         {
             f.setSize(600, 600);
