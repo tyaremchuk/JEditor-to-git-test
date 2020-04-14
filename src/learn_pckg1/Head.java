@@ -25,6 +25,7 @@ import javax.tools.Tool;
 
 public class Head implements ActionListener {
     JFrame f;
+
     JMenuBar mb;
     JMenu file, edit, help;
     JMenuItem cut, copy, paste, selectAll;
